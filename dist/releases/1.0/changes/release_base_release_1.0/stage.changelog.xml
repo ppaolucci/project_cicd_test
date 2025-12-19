@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+<include file="wksp_qcaademo23ai/package_specs/eba_demo_action_validation.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/package_specs/eba_demo_ir_pkg.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/package_specs/eba_sample_vector_search_pkg.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_demo_action.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_demo_chart_bball.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_demo_chart_dept.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_demo_chart_emp.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_demo_chart_grades.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_demo_chart_orders.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_demo_chart_population.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_demo_chart_products.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_demo_chart_projects.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_demo_chart_samples.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_demo_chart_sample_data.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_demo_chart_sample_names.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_demo_chart_stats.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_demo_chart_stocks.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_demo_chart_tasks.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_demo_ir_dept.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_demo_ir_emp.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_demo_ir_projects.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_demo_team.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_vector_datatable.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_vector_moviedata.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/package_bodies/eba_demo_action_validation.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/package_bodies/eba_demo_ir_pkg.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/package_bodies/eba_sample_vector_search_pkg.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/procedures/eba_demo_chart_data.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/procedures/eba_demo_ir_data.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_demo_staff.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/tables/eba_vector_ai_helper.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/indexes/eba_demo_chart_bball_1.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/indexes/eba_demo_chart_emp_1.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/indexes/eba_demo_chart_emp_2.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/indexes/eba_demo_chart_ord_1.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/indexes/eba_demo_chart_ord_2.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/indexes/eba_demo_chart_prod_1.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/indexes/eba_demo_chart_sample_idx1.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/indexes/eba_demo_chart_stats_1.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/indexes/eba_demo_chart_stats_2.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/indexes/eba_demo_chart_stats_3.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/indexes/eba_demo_chart_tasks_idx1.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/indexes/eba_demo_ir_emp_1.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/indexes/eba_demo_ir_emp_2.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/indexes/eba_demo_ir_projects_pk.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/indexes/eba_demo_team_i1.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/indexes/eba_demo_team_i72.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/ref_constraints/eba_demo_chart_emp.eba_demo_chart_emp.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/ref_constraints/eba_demo_chart_order_fk.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/ref_constraints/eba_demo_chart_tasks_fk.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/ref_constraints/eba_demo_ir_emp.eba_demo_ir_emp.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/ref_constraints/eba_demo_sample_fk.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/ref_constraints/eba_demo_team_action_id_fk.sql" relativeToChangelogFile="true"/>
+<include file="wksp_qcaademo23ai/ref_constraints/eba_demo_team_user_id_fk.sql" relativeToChangelogFile="true"/>
+</databaseChangeLog>
